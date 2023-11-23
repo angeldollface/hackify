@@ -38,7 +38,7 @@ the components of our app.
 We define the styles for our
 app.
 -->
-<style lang="scss>
+<style lang="scss">
  // We import the master stylesheet
  // written in SCSS.
  @import '../sass/index.scss';
