@@ -33,3 +33,13 @@ the components of our app.
     }
  }
 </script>
+
+<!--
+We define the styles for our
+app.
+-->
+<style lang="scss>
+ // We import the master stylesheet
+ // written in SCSS.
+ @import '../sass/index.scss';
+</style>
