@@ -68,7 +68,7 @@ for this component.
     data() {
         return {
             result: 'Hackified text will appear here.',
-            inputText: 'Type your phrase here.',
+            inputText: '',
             isCopied: 'false'
         };
     },
