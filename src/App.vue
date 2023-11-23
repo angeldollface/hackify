@@ -1,37 +1,35 @@
+<!--
+HACKIFY by Alexander Abraham, 
+a.k.a. "Angel Dollface".
+Licensed under the MIT license.
+-->
+
+<!--
+We use the imported
+components in order
+and render them.
+-->
 <template>
- <h1>H4CK1FY</h1>
- <div class="content">
-  <input type="text" v-model="inputText" placeholder="Your text goes here."/>
-  <p>Result: {{ result }}</p>
-  <p>Copied: {{ isCopied }}</p>
-  <button @click="convert()">Convert</button>
-  <button @click="copy()">Copy</button>
- </div>
- <div class="spacer"></div>
+ <HeadingCog/>
+ <ConverterCog/>
+ <SpacerCog/>
 </template>
+
+<!--
+The script for this main "App"
+component that imports and registers
+the components of our app.
+-->
 <script>
-import hack from 'hack';
-export default {
-  // Naming and registering the component.
-  name: 'App',
-  data() {
-    return {
-       result: 'Hackified text will appear here.',
-       inputText: 'Type your phrase here.',
-       isCopied: 'false'
-    };
-  },
-  methods: {
-    convert(){
-      this.result = hack.hackify(this.inputText);
-    },
-    copy(){
-      navigator.clipboard.writeText(this.result);
-      this.isCopied = 'true';
+ import HeadingCog from './components/HeadingCog.vue';
+ import ConverterCog from './components/ConverterCog.vue';
+ import SpacerCog from './components/SpacerCog.vue';
+ export default {
+    name: 'App',
+    components: {
+        HeadingCog,
+        ConverterCog,
+        SpacerCog
     }
-  }
-}
+ }
 </script>
-<style lang="scss">
-@import 'sass/index.scss';
-</style>
