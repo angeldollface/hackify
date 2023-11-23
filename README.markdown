@@ -2,7 +2,7 @@
 
 ![GitHub CI](https://github.com/angeldollface/hackify/actions/workflows/vue.yml/badge.svg)
 
-***A small Vue.js app to replace letters with numbers.*** :scroll: :woman_technologist: :spider_web:
+***A small Vue.js app to replace letters with numbers. :scroll: :woman_technologist: :spider_web:***
 
 ## ABOUT :books:
 
