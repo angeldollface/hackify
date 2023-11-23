@@ -40,6 +40,7 @@ input[type="text"]{
     font-size: 25px;
     color: $accentColor;
     border-radius: 0px;
+    overflow-x: scroll;
 }
 input[type="text"]:focus{
     outline: none;
