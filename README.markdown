@@ -14,7 +14,7 @@ Type the desired phrase into the input field, press `Convert`, and click `Copy` 
 
 ## DEPLOYED PROJECT ON GITHUB PAGES :rocket:
 
-To view a live deployed version of this project, click here: [VIEW](https://angeldollface.art/hackify)
+To view a live deployed version of this project, click here: [VIEW](https://angeldollface.boo/hackify)
 
 ## SET IT UP :inbox_tray:
 
